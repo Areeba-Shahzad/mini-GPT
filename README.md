@@ -14,15 +14,15 @@ The model is trained to predict the next token in a sequence, using a custom tex
 
 ## ✨ Features
 
-- 🏗️ **Transformer Implementation from Scratch**: All key components of the Transformer architecture are custom-built.
-- 🧩 **Subword-Level Tokenization**: Uses `tiktoken` (the tokenizer used by GPT models) for efficient text processing.
-- ⚙️ **Configurable Hyperparameters**: Easily adjust `block_size`, `emb_dim`, `num_heads`, `num_layers`, etc., via a `Config` dataclass.
-- 🧠 **Multi-Head Self-Attention**: Implements the core attention mechanism found in GPT models.
-- 🔁 **Feedforward Network**: Includes a custom feedforward module with GELU activation and dropout.
-- 🧪 **Pre-LN Layer Normalization**: Applies Layer Normalization before skip connections for better training stability.
-- 📝 **Language Modeling Task**: Trained to predict the next token and generate coherent text.
-- ✍️ **Text Generation**: Includes a `generate()` method to produce new text sequences from a prompt.
-- 📊 **Parameter Analysis**: *(Planned/Included)* Visualizations to explore how hyperparameters affect model size and performance.
+-  **Transformer Implementation from Scratch**: All key components of the Transformer architecture are custom-built.
+-  **Subword-Level Tokenization**: Uses `tiktoken` (the tokenizer used by GPT models) for efficient text processing.
+-  **Configurable Hyperparameters**: Easily adjust `block_size`, `emb_dim`, `num_heads`, `num_layers`, etc., via a `Config` dataclass.
+-  **Multi-Head Self-Attention**: Implements the core attention mechanism found in GPT models.
+-  **Feedforward Network**: Includes a custom feedforward module with GELU activation and dropout.
+-  **Pre-LN Layer Normalization**: Applies Layer Normalization before skip connections for better training stability.
+-  **Language Modeling Task**: Trained to predict the next token and generate coherent text.
+-  **Text Generation**: Includes a `generate()` method to produce new text sequences from a prompt.
+-  **Parameter Analysis**: *(Planned/Included)* Visualizations to explore how hyperparameters affect model size and performance.
 
 ---
 
