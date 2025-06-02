@@ -30,8 +30,8 @@ The model is trained to predict the next token in a sequence, using a custom tex
 
 | File | Description |
 |------|-------------|
-| `PA4_1.ipynb` | Core model implementation: embedding layers, attention blocks, decoder stack |
-| `PA4_2.ipynb` | Model training, text generation, and evaluation on sample dataset |
+| `Part_1.ipynb` | Core model implementation: embedding layers, attention blocks, decoder stack |
+| `Part_2.ipynb` | Model training, text generation, and evaluation on sample dataset |
 
 ---
 
